@@ -14,6 +14,12 @@
 # import math
 # And then calling the function 
 # x = math.sqrt(a)
+# Use the program to solve the following equations:
+# Equation 1: x^2 – 5x + 6 = 0 (expected two real solutions: 3 and 2)
+# Equation 2: x^2 + 2x – 2 = 0 (expected two real solutions: -1 + sqrt(3) and -1 -sqrt(3))
+# Equation 3: x^2 + 2x + 1 = 0. (expected one real solution: -1)
+# Equation 4: x^2 + 2x + 2 = 0. (expexted 0 real solutions)
+
 
 print("This program solves the quadratic equation a*x^2 + bx + c = 0 in the real realm")
 
