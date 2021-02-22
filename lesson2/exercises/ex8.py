@@ -21,6 +21,11 @@
 # Point on the axes (i.e. with one or both coordinates equal to zero) are a special case
 # The program ALSO needs to tell if the point specified by the user is on the X axis,
 # on the Y axis or in the point 0,0 (origin of the axis system)
+# The point E with coordinates 0, -10 is on the negative part of the Y axis
+# The point F with coordinates 0, 10 is on the positive part of the Y axis
+# The point G with coordinates -10, 0 is on the negative part of the X axis
+# The point H with coordinates 10, 0 is on the positive part of the X axis
+# The point D with coordinates 0, 0 is on the axis origin.
 
 x = float(input('Insert the X coordinate: '))
 y = float(input('Insert the Y coordinate: '))
