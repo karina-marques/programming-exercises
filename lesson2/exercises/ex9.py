@@ -1,4 +1,4 @@
-# Write a program that takes three coeffiecients a,b,c and solves the quation
+# Write a program that takes three coeffiecients a,b,c and solves the equation
 # a*x^2 + bx + c = 0, in the real domain.
 # Short algebraic recap
 # To solve a quadratic equation you have to compute the quantity
@@ -20,6 +20,7 @@
 # Equation 3: x^2 + 2x + 1 = 0. (expected one real solution: -1)
 # Equation 4: x^2 + 2x + 2 = 0. (expexted 0 real solutions)
 
+import math
 
 print("This program solves the quadratic equation a*x^2 + bx + c = 0 in the real realm")
 
@@ -27,4 +28,16 @@ a = float(input('Insert the a coefficient: '))
 b = float(input('Insert the b coefficient: '))
 c = float(input('Insert the c coefficient: '))
 
-# Program goes here
+# Find delta
+delta = b**2 - 4*a*c
+
+if delta>0:
+    y = (-b + math.sqrt(delta)) / (2 * a)
+    print(y)
+    z= (-b - math.sqrt(delta)) / (2 * a)
+    print(z)
+elif delta ==0:
+    y = -b / (2 * a)
+    print(y)
+else:
+    print('no real solution')   

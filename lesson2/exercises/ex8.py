@@ -23,11 +23,28 @@
 # on the Y axis or in the point 0,0 (origin of the axis system)
 # The point E with coordinates 0, -10 is on the negative part of the Y axis
 # The point F with coordinates 0, 10 is on the positive part of the Y axis
-# The point G with coordinates -10, 0 is on the negative part of the X axis
+# The point G with coordinates -2, 0 is on the negative part of the X axis
 # The point H with coordinates 10, 0 is on the positive part of the X axis
 # The point D with coordinates 0, 0 is on the axis origin.
 
 x = float(input('Insert the X coordinate: '))
 y = float(input('Insert the Y coordinate: '))
 
-# Program goes here
+if x> 0 and y>0:
+    print ('Quadrant 1')
+elif x< 0 and y>0:
+    print ('Quadrant 2')
+elif x< 0 and y<0:
+    print ('Quadrant 3')
+elif x> 0 and y< 0:
+    print ('Quadrant 4')
+elif x== 0 or y== 0:
+    if x==0 and y>0:
+        print ('Positive part of the Y axis')
+    elif x==0 and y<0:
+        print ('Negative part of the Y axis')
+    elif x<0 and y==0:
+        print ('Negative part of the X axis')
+    elif x>0 and y==0:
+        print ('Positive part of the X axis')
+    
