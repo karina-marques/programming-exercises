@@ -1,2 +1,2 @@
-# Write here the test case for 'maximum' function
+# Write here the test case for 'minimum' function
 # TODO

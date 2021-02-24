@@ -17,6 +17,9 @@ def celsius_to_fahrenheit(temperature_in_celsius):
 # Tip: reuse the previous functions.
 # TODO
 
+# Write a function named 'minimum' that takes as input two numbers and returns the minimum
+# TODO
+
 # Write a function named 'maximum' that takes as input two numbers and returns the maximum
 # TODO
 
