@@ -98,4 +98,5 @@ greet("Marco", "How are you?")
 
 # As final tips: 
 # Unless you have a very good reason to do so, do not use print() or input() inside of a function.
-# Get used to think about your code divided in functions. This will make your code easily reusable in the future
+# Get used to think about your code divided in functions. 
+# This will make your code easily reusable in the future
