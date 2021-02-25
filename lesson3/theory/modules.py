@@ -1,5 +1,6 @@
 # A module in python is collection of functions, classes, variables and constants
-# Modules can be imported into the code using the import keyword, for example
+# Modules can be imported into the code using the import keyword
+# Imports are usually placed at the top of your source file, so they are all in the same place
 
 import math 
 
@@ -7,13 +8,12 @@ import math
 # For example, the function sqrt(x) is available only in the math module.
 # Documentation for the math module is here https://docs.python.org/3/library/math.html
 
-import random 
+import random
 
 # Imports the standard python random module, that you can use to generate
 # Aleatory variables and random number
 # Documentation for the random module is here https://docs.python.org/3/library/random.html
 
-# Imports are usually placed at the top of your source file, so they are all in the same place
 # Once you have imported a module, you can access to the functions it defines using the . operator, for example
 
 number0 = 5

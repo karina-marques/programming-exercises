@@ -44,7 +44,7 @@
 '''
 # Like ifs, after the function signature you have to start a new code block using indentation.
 # Functions in python can have multiple inputs but just 1 output.
-# The return keyword is used to specify the return argument, and in general
+# The return keyword is used to specify the output argument, and in general
 # to exit from the function call.
 
 # Here are some examples of functions:
@@ -55,19 +55,19 @@ def sum(a, b):
 number1 = 3
 number2 = 5
 
-print("The sum of", number1, "and", number2, "is", sum(number1, number2))
+print("The sum of", number1, "and", number2, "is", sum(number1, number2)) #sum(3, 5) -> 8
 
-# maximum takes two numbers and returns their maximum
-def maximum(a, b):
+# pateta takes two numbers and returns their maximum
+def pateta(a, b):
     if a >= b:
         return a
     return b
 
 number3 = 7
 number4 = 8
-print("The maximum between", number3, "and", number4, "is", maximum(number3, number4))
+print("The maximum between", number3, "and", number4, "is", pateta(number3, number4))
 
-# isEven takes one number and returns True if the number is even, False otherwise
+# is_even takes one number and returns True if the number is even, False otherwise
 def is_even(a):
     return a % 2 == 0
 
