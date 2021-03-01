@@ -38,3 +38,15 @@ def convert_temperatures(input_list = None):
 # Write a function 'min_list' that takes a list of numbers as input and returns
 # the smallest value in the list
 # Tip: you can use the 'minimum' function defined in lesson 3
+
+# Write a function 'count_ones' that takes a binary list as input
+# (for example the list a = [1, 0, 0, 0, 1])
+# And counts the max consecutive ones.
+
+# Write a function 'shuffle_list' that takes a list of numbers as input
+# and shuffles the list
+# Tip: take a look at the function shuffle in the random module
+
+# Write a function 'sort_list' to sort a list of numbers in incresing order
+# Tip: take a look at the sorted() function in the python standard library
+# https://docs.python.org/3/library/functions.html#sorted

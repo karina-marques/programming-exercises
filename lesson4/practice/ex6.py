@@ -1,0 +1,1 @@
+# Write a test case for the function 'count_ones'
