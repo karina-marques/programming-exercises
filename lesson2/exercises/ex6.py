@@ -10,4 +10,3 @@ elif x % 400 != 0:
     print (x, 'is a common year')
 else: 
     print (x, 'is a leap year')
-
