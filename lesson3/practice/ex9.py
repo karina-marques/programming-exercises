@@ -1,4 +1,5 @@
 # Write here the test case for 'is_leap_year' function
+# As did for ex7 and ex8, use a helper function to help format the output
 
 import lesson3_module
 
