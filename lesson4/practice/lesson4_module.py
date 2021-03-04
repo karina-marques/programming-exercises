@@ -1,7 +1,11 @@
-# 0. Write a function 'multiplication_by_addition' that takes two integer numbers
+# 0. Write a function 'integer_multiplication_by_addition' that takes two integer numbers
 # as input and performs the multiplication by doing subsequent additions
-# For example multiplication_by_addition(5,3) would do:
+# For example integer_multiplication_by_addition(5,3) would do:
 # 5 + 5 + 5 = 15
+# Make sure that the function works normally also for negative numbers
+# Also, perform a check on the inputs, veryfing that they are integers
+# You can use isinstance(variable, int) to verify that variable is an integer
+# More info here:  https://docs.python.org/3/library/functions.html
 
 # 0. Write a function 'division_by_subtraction' that takes two integer numbers
 # as input and performs the integer division by doing subsequent difference
@@ -12,6 +16,13 @@
 # 4 - 3 = 1
 # 3 substractions performed
 # value returned = (3, 1)
+# Check that the divisor is not zero
+# Check that the number in input to the function are integers
+# This program has to work with negative numbers as well
+
+# 2. Write a function 'count_integer_digits' that counts the number of digits of an integer number given in input
+# Tip: our counting system is a base 10. Use this to your advantage: what happens when you
+# divide a number by 10 multiple times?
 
 # 1. Write a function 'convert_temperatures' that converts an input list containing
 # the numbers inside the list to Fahrneit. If the input_list
@@ -22,10 +33,6 @@ def convert_temperatures(input_list = None):
     if(input_list == None):
         input_list = range(0, 100)
     # TODO: write code here
-
-# 2. Write a function 'count_digits' that counts the number of digits of an integer number given in input
-# Tip: our counting system is a base 10. Use this to your advantage: what happens when you
-# divide a number by 10 multiple times?
 
 # 3. Write a function 'fibonacci' that returns the first n elements of the fibonacci sequence as a list.
 # The fibonacci sequence is defined here: https://en.wikipedia.org/wiki/Fibonacci_number
