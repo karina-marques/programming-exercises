@@ -60,3 +60,14 @@ def is_leap_year (a):
         return False
     else:
         return True
+
+# 11. Write a function named 'compute_circle_area' that takes as input a number representing
+# the radius of a circle and computes the area of a circle.
+# Tip: The area of a circle equation is available here: https://en.wikipedia.org/wiki/Area_of_a_circle
+# You can found pi in the math module: https://docs.python.org/3/library/math.html#constants
+
+# 12. Write a function named 'toss_dice' that simulates the toss of a dice with 6 sides
+# Hint: Check the functions
+# - random.seed(a=None, version=2)
+# - random.randint(a, b) 
+# On the random module documentation https://docs.python.org/3/library/random.html
