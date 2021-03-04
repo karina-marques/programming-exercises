@@ -1,3 +1,18 @@
+# 0. Write a function 'multiplication_by_addition' that takes two integer numbers
+# as input and performs the multiplication by doing subsequent additions
+# For example multiplication_by_addition(5,3) would do:
+# 5 + 5 + 5 = 15
+
+# 0. Write a function 'division_by_subtraction' that takes two integer numbers
+# as input and performs the integer division by doing subsequent difference
+# Make the function return a tuple of the type (result, remainder)
+# For example division_by_subtraction(10,3) would do:
+# 10 - 3 = 7
+# 7 - 3 = 4
+# 4 - 3 = 1
+# 3 substractions performed
+# value returned = (3, 1)
+
 # 1. Write a function 'convert_temperatures' that converts an input list containing
 # the numbers inside the list to Fahrneit. If the input_list
 # is null, convert the numbers from 0 to 100.
